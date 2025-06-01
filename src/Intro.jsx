@@ -56,7 +56,7 @@ const Intro = () => {
       <div className="flex flex-row justify-between w-[60rem]">
         <div className="flex flex-col items-start justify-end relative">
           {/* <div className="w-50 border-b border-3 border-[#2D8BE8]"></div> */}
-          <div className="h-95.5 border-l-3 border-[#2D8BE8] translate-y-11"></div>
+          <div className="h-101 border-l-3 border-[#2D8BE8] translate-y-11"></div>
         </div>
 
         <div className="flex flex-col items-center justify-center">
@@ -69,7 +69,7 @@ const Intro = () => {
           </h1>
         </div>
         <div className="flex flex-col items-center justify-center w-[30rem]">
-          <img src="/pic.png" alt="Profile" className="rounded-full" />
+          <img src="/PortfolioWebsite/pic.png" alt="Profile" className="rounded-full" />
         </div>
         <div className="flex flex-col items-end justify-end relative">
           <div className="text-[2rem] text-center leading-none min-w-[2ch] space-y-2 font-bold font-sans text-[#2d8be8] pb-4 translate-x-4 translate-y-9">

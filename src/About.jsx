@@ -7,7 +7,7 @@ const About = () => {
       <div className="w-[75rem]">
         {/* <img src="/about.png" alt="image" /> */}
         <DotLottieReact
-          src="/Animation2.lottie"
+          src="/PortfolioWebsite/Animation2.lottie"
           autoplay
           loop
           className="w-[22rem] h-full object-contain scale-150"

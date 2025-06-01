@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
       </div>
       {tab==='programming' &&( <div className="flex justify-start w-[60rem] pt-14">
-        <img src="/programming.png" alt="" />
+        <img src="/PortfolioWebsite/programming.png" alt="" />
       </div>)}
         {tab==='engineering' &&(
           <div className="grid grid-cols-2 text-[1.3rem] font-medium text-[#424040] py-4 items-center">

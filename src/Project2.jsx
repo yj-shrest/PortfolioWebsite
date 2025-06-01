@@ -22,7 +22,7 @@ const Project2 = () => {
           <div className="w-[25rem] border-t-3 pb-10 border-[#2D8BE8]"></div>
           <img
             className="w-[25rem] h-auto rounded-xl"
-            src="/project2.png"
+            src="/PortfolioWebsite/project2.png"
             alt="image1"
           />
         </div>
@@ -40,21 +40,21 @@ const Project2 = () => {
               <a href="https://github.com/Hack-A-Week/SYRuS-2024">
               <img
                 className="h-[3rem] object-contain"
-                src="/Githubicon.png"
+                src="/PortfolioWebsite/Githubicon.png"
                 alt=""
                 />
               </a>
               <a href="https://www.youtube.com/watch?v=aVivUsV5yBU">
               <img
                 className="h-[3rem] object-contain"
-                src="/Youtube.png"
+                src="/PortfolioWebsite/Youtube.png"
                 alt=""
                 />
               </a>
             </div>
             <img
               className="h-[4.5rem] object-contain"
-              src="/ReactNative.png"
+              src="/PortfolioWebsite/ReactNative.png"
               alt=""
             />
           </div>

@@ -52,19 +52,19 @@ const Contact = () => {
         </div>
         <div className="flex my-8 justify-center items-center space-x-8">
           <a href="https://www.facebook.com/yujal.shrestha">
-            <img className="h-[3rem] object-contain" src="/facebook.png" alt="" />
+            <img className="h-[3rem] object-contain" src="/PortfolioWebsite/facebook.png" alt="" />
           </a>
           <a href="https://www.instagram.com/yujal40/">
-            <img className="h-[3rem] object-contain" src="/insta.png" alt="" />
+            <img className="h-[3rem] object-contain" src="/PortfolioWebsite/insta.png" alt="" />
           </a>
             <a href="https://t.me/+9779808779843">
-            <img className="h-[3rem] object-contain" src="/telegram.png" alt="" />
+            <img className="h-[3rem] object-contain" src="/PortfolioWebsite/telegram.png" alt="" />
             </a>
             <a href="https://wa.me/9779808779843">
-            <img className="h-[3rem] object-contain" src="/whatsapp.png" alt="" />
+            <img className="h-[3rem] object-contain" src="/PortfolioWebsite/whatsapp.png" alt="" />
             </a>
             <a href="https://www.linkedin.com/in/yujal-shrestha-88ba43261/">
-            <img className="h-[3rem] object-contain" src="/linkedin.png" alt="" />
+            <img className="h-[3rem] object-contain" src="/PortfolioWebsite/linkedin.png" alt="" />
             </a>
 
         </div>
