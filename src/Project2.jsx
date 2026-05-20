@@ -2,10 +2,10 @@ import React from "react";
 
 const Project2 = () => {
   return (
-    <div className="flex flex-col relative w-[50rem] pb-10 h-auto space-y-2">
-      <div className="flex w-[30rem] items-end pb-2 space-x-2">
+    <div className="flex flex-col relative w-full md:w-[50rem] pb-10 h-auto space-y-4 md:space-y-2">
+      <div className="flex w-full md:w-[30rem] items-end pb-2 space-x-2">
         <h1
-          className="text-[4rem] font-bold leading-none"
+          className="text-[3rem] sm:text-[4rem] font-bold leading-none"
           style={{
             WebkitTextStroke: "1px black",
             color: "transparent",
@@ -13,21 +13,21 @@ const Project2 = () => {
         >
           02
         </h1>
-        <h1 className="text-[2rem] font-semibold text-[#2f2f2f] leading-none">
+        <h1 className="text-[1.6rem] sm:text-[2rem] font-semibold text-[#2f2f2f] leading-none">
           Smart Lagani
         </h1>
       </div>
-      <div className="flex justify-between">
-        <div>
-          <div className="w-[25rem] border-t-3 pb-10 border-[#2D8BE8]"></div>
+      <div className="flex flex-col gap-5 md:flex-row md:justify-between">
+        <div className="w-full md:w-auto">
+          <div className="w-full md:w-[25rem] border-t-3 pb-5 md:pb-10 border-[#2D8BE8]"></div>
           <img
-            className="w-[25rem] h-auto rounded-xl"
+            className="w-full md:w-[25rem] h-auto rounded-xl"
             src="/PortfolioWebsite/project2.png"
             alt="image1"
           />
         </div>
-        <div className="flex flex-col pl-10 justify-between space-y-2">
-          <p className="text-[1.2rem] font-sans text-[#6D6969]  mt-26 font-medium text-justify">
+        <div className="flex flex-col md:pl-10 justify-between space-y-4 md:space-y-2">
+          <p className="text-[1rem] sm:text-[1.2rem] font-sans text-[#6D6969] md:mt-26 font-medium text-left sm:text-justify">
             SmartLagani! a Stock Market Predictor App documentation. This
             application leverages real-time data, fundamental analysis, and Long
             Short-Term Memory (LSTM) models to classify stocks and make
@@ -53,7 +53,7 @@ const Project2 = () => {
               </a>
             </div>
             <img
-              className="h-[4.5rem] object-contain"
+              className="h-[3.5rem] sm:h-[4.5rem] object-contain"
               src="/PortfolioWebsite/ReactNative.png"
               alt=""
             />

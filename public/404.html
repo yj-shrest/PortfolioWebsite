@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // 👇 Save the current path and redirect to root
+      sessionStorage.redirectPath = location.pathname + location.search + location.hash;
+      location.replace('/');
+    </script>
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

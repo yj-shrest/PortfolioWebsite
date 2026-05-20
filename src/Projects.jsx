@@ -43,30 +43,30 @@ const Projects = () => {
     );
   }
   return (
-  <div id="projects" className="pt-10 flex flex-col w-[60rem] h-auto items-center justify-center">
-    <div className="text-[2rem] font-sans font-semibold text-[#2f2f2f] pb-8 ">
+  <div id="projects" className="pt-10 flex w-full max-w-[60rem] flex-col px-2 sm:px-4 h-auto items-center justify-center">
+    <div className="text-center text-[2rem] font-sans font-semibold text-[#2f2f2f] pb-8 ">
       Project Showcase
     </div>
-    <div className="flex flex-row justify-between w-full h-auto items-center">
+    <div className="flex flex-row justify-between w-full h-auto items-start md:items-center">
       <div
         onClick={handlePrevProject}
         style={{
           width: 0,
           height: 0,
-          borderTop: "20px solid transparent",
-          borderBottom: "20px solid transparent",
-          borderRight: `30px solid ${currentProject === 0 ? "gray" : "black"}`,
+          borderTop: "14px solid transparent",
+          borderBottom: "14px solid transparent",
+          borderRight: `20px solid ${currentProject === 0 ? "gray" : "black"}`,
           cursor: currentProject === 0 ? "not-allowed" : "pointer",
         }}
       ></div>
 
-      <div className="overflow-hidden w-[50rem] mx-4">
+      <div className="overflow-hidden w-[calc(100vw-5rem)] md:w-[50rem] mx-2 sm:mx-4">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentProject * 100}%)` }}
         >
           {projects.map((p) => (
-            <div key={p.id} className="w-[50rem] flex-shrink-0">
+            <div key={p.id} className="w-[calc(100vw-5rem)] md:w-[50rem] flex-shrink-0">
               {p.component}
             </div>
           ))}
@@ -78,9 +78,9 @@ const Projects = () => {
         style={{
           width: 0,
           height: 0,
-          borderTop: "20px solid transparent",
-          borderBottom: "20px solid transparent",
-          borderLeft: "30px solid black",
+          borderTop: "14px solid transparent",
+          borderBottom: "14px solid transparent",
+          borderLeft: "20px solid black",
           cursor: "pointer",
         }}
       ></div>
